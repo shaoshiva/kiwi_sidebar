@@ -1,0 +1,90 @@
+.sidebar-blocs .legend {
+    color: #888;
+    line-height: 1.25em;
+    margin: .5em 0 0 0;
+}
+.sidebar-blocs .blocs {
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #cccccc;
+}
+.sidebar-blocs div > .actions {
+    float: right;
+    margin-top: -5px;
+}
+.sidebar-blocs .blocs .actions button {
+    width: 20px;
+    height: 21px;
+    top: 4px;
+    right: 2px;
+    opacity: 0.5;
+}
+.sidebar-blocs .blocs .actions button:hover {
+    opacity: 1;
+}
+.sidebar-blocs .blocs .actions button .ui-icon {
+    margin-left: -5px;
+}
+.sidebar-blocs .blocs .actions button .ui-button-text {
+    display: none;
+}
+.sidebar-blocs .blocs h2 em {
+    font-style: italic;
+}
+.sidebar-blocs .blocs h2 .actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 27px;
+}
+.sidebar-blocs .bloc {
+    overflow: visible !important;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+.sidebar-blocs .sliding .bloc {
+    overflow: hidden !important;
+}
+.sidebar-blocs .bloc .mceEditor {
+    display: block !important;
+}
+.sidebar-blocs .options {
+    margin: 1em 0 0 0 !important;
+}
+.sidebar-blocs ul {
+    padding: 2em 2em 4em 2em;
+    min-height: 10em;
+    list-style-type: none;
+}
+.sidebar-blocs .bloc_title input {
+    width: 100%;
+    box-sizing: border-box;
+}
+.sidebar-blocs-column {
+    float: left !important;
+    width: 35em;
+}
+.sidebar-blocs-column .blocs {
+    min-height: 450px;
+}
+.sidebar-published {
+    margin-left: 3em;
+}
+.sidebar-unpublished h2 {
+    opacity: 0.6;
+}
+.sidebar-unpublished .blocs {
+    position: relative;
+    border: 1px dashed #cccccc;
+    background: #fafafa;
+}
+.sidebar-unpublished .blocs > em {
+    position: absolute;
+    height: 18px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    text-align: center;
+}
